@@ -6,4 +6,5 @@ Download PsPing from [this link](https://docs.microsoft.com/en-us/sysinternals/d
 ## How to ping a tcp/udp port?
 `psping -i 0 <ip_address>:53`
 ![plot](./screenshot_port.png)
+
 -- Thank You. 
