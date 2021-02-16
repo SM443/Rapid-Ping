@@ -3,4 +3,7 @@ I wanted to continuously monitor round trip time in a [NOC](https://en.wikipedia
 ## How to use in Windows?
 Download PsPing from [this link](https://docs.microsoft.com/en-us/sysinternals/downloads/psping) and `windows_ping.bat` file from this repository and put `psping.exe` and `windows_ping.bat` file at the same location and run it. 
 
+## How to ping a tcp/udp port?
+`psping -n 100 -i 0 <ip_address>:53`
+
 -- Thank You. 
